@@ -1,0 +1,5 @@
+node modules/
+*.log
+.DS store
+dist/
+.env
