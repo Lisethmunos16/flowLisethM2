@@ -20,7 +20,7 @@ function verificarSistema() {
   const statusDiv = document.getElementById('status');
 
   statusDiv.textContent = `${resultado.message} | ${resultado.timestamp}`;
-  statusDiv.style.color = 'green';
+  statusDiv.style.color = '#009B4C';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
